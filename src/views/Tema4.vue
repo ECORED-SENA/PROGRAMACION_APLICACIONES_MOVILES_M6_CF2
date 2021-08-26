@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 4
-      h1 Componentes de Software
+      h1 Componentes de <i>software</i>
     figure.mt-4  
       img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
     p.mt-5 Los sistemas de información son el conjunto de varios elementos que operando en conjunto bajo unas premisas definidas logran el objetivo de mantener en operación dichos sistemas. A continuación, se relacionan algunos de estos elementos necesarios para garantizar la continuidad del funcionamiento del sistema.
@@ -14,8 +14,9 @@
       #t_4_1.h4 4.1  Licenciamiento
     .row.mt-5 
       .col-12.col-lg-9
-        p Una licencia de software es un contrato que describe los derechos legales del uso autorizado de un sistema de información, programa u aplicativo. En otras palabras, es un acuerdo en el que el fabricante o proveedor del software le otorga a una persona u organización un permiso para utilizar un determinado producto.
+        p Una licencia de <i>software</i> es un contrato que describe los derechos legales del uso autorizado de un sistema de información, programa u aplicativo. En otras palabras, es un acuerdo en el que el fabricante o proveedor del <i>software</i> le otorga a una persona u organización un permiso para utilizar un determinado producto.
         p.mt-3 Una acción de aceptación inequívoca de este contrato se efectúa cuando se descarga e instala a través del medio oficial de distribución del producto a instalar, es decir que, aunque no se firme un documento explícitamente cuando se realizan las operaciones descritas en el contrato (generalmente: descarga, instalación, configuración) que causan la aceptación de las condiciones de aceptación es considerado legalmente como si se firmara un contrato de licencia. 
+        
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
           img(src="@/assets/template/tema-4-2.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
@@ -28,7 +29,8 @@
                 img(src="@/assets/template/tema-4-3.svg", alt="Texto que describa la imagen")
             .col-lg-9
               .bloque-texto-a__texto.p-4
-                p En Colombia según la norma que regula este tema se encuentra en la Ley 603 de 2000, llamada  ley de licencias de Software (o también Ley para cumplimiento de las licencias de Software), las licencias de software se clasifican según el uso final y las libertades que el autor ofrece de su producto al usuario final. Por lo tanto, es importante conocer el tipo de licenciamiento de software:
+                p #[strong Tipos de licencia de ] <b><i>software</i></b>
+                p.mt-3 En Colombia según la norma que regula este tema se encuentra en la Ley 603 de 2000, llamada  ley de licencias de <i>software</i> (o también Ley para cumplimiento de las licencias de <i>software</i>), las licencias de <i>software</i> se clasifican según el uso final y las libertades que el autor ofrece de su producto al usuario final. Por lo tanto, es importante conocer el tipo de licenciamiento de <i>software</i>:
     .row.mt-5
       .col-10.offset-1
         LineaTiempoD.color-acento-botones
@@ -37,7 +39,7 @@
               figure
                 img(src="@/assets/template/tema-4-4.png", alt="Texto que describa la imagen")
             .col-12.col-lg-8
-              p O también llamado software de código cerrado, es aquel en el que el autor no transmite ninguno de los derechos de ejecución, copia, modificación, cesión o redistribución al comprador, sino que solo establece las condiciones bajo las cuales el usuario puede utilizar el programa. 
+              p O también llamado <i>software</i> de código cerrado, es aquel en el que el autor no transmite ninguno de los derechos de ejecución, copia, modificación, cesión o redistribución al comprador, sino que solo establece las condiciones bajo las cuales el usuario puede utilizar el programa. 
           .row(numero="2" titulo="Shareware ")
             .col-4.d-none.d-lg-block
               figure
@@ -62,13 +64,13 @@
                 img(src="@/assets/template/tema-4-8.png", alt="Texto que describa la imagen")
             .col-12.col-lg-8
               p Es el tipo de licencia que generalmente adquieren las empresas dado que estipula un número aproximado de equipos en los que puede ser instalado y utilizado el programa dentro de la misma compañía. 
-    p.mt-5 El incumplimiento del uso de software no licenciado acarrea sanciones administrativas hasta de 200 salarios mínimos legales mensuales vigentes (200 SMMLV) para todos los administradores de la empresa, según lo estipule la Superintendencia de Sociedades.
+    p.mt-5 El incumplimiento del uso de <i>software</i> no licenciado acarrea sanciones administrativas hasta de 200 salarios mínimos legales mensuales vigentes (200 SMMLV) para todos los administradores de la empresa, según lo estipule la Superintendencia de Sociedades.
     .titulo-segundo.mt-5
       #t_4_2.h4 4.2  Seguridad
     .row.mt-5
       .col-12.col-lg-7
         p La seguridad de las aplicaciones, hace referencia a las medidas de seguridad, a nivel de aplicación (incluidas en la codificación), cuyo propósito es impedir el acceso no autorizado, el robo o el secuestro de datos o códigos dentro de la aplicación. Incluye las consideraciones de seguridad a tener en cuenta en el momento de desarrollar y diseñar aplicaciones, además de los sistemas y las técnicas para proteger las aplicaciones después de distribuirlas.
-        p.mt-3 Para lograr el objetivo de hacer seguras las aplicaciones se debe incluir aspectos en el hardware, software y procedimiento que minimicen las vulnerabilidades de seguridad. La estrategia de publicación de la aplicación servicios de información requieren el empleo de un conjunto de protocolos o procedimientos y para garantizarla se deben realizar pruebas al respecto.
+        p.mt-3 Para lograr el objetivo de hacer seguras las aplicaciones se debe incluir aspectos en el <i>hardware</i>, <i>software</i> y procedimiento que minimicen las vulnerabilidades de seguridad. La estrategia de publicación de la aplicación servicios de información requieren el empleo de un conjunto de protocolos o procedimientos y para garantizarla se deben realizar pruebas al respecto.
       .col-4.col-lg-5.offset-4.offset-lg-0
         figure
           img(src="@/assets/template/tema-4-9.png", alt="Texto que describa la imagen")
@@ -102,7 +104,7 @@
     AcordionA.mt-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Seguridad de las aplicaciones en la nube")
         .col-12.col-lg-8
-          p las aplicaciones móviles y las aplicaciones web requieren servicios en la nube ello plantea desafíos adicionales propios del entorno entornos de la nave ya que los recursos muchas veces son compartidos, existen dispositivos a nivel infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
+          p Las aplicaciones móviles y las aplicaciones web requieren servicios en la nube ello plantea desafíos adicionales propios del entorno entornos de la nave ya que los recursos muchas veces son compartidos, existen dispositivos a nivel infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-4-14.png", alt="Texto que describa la imagen")
@@ -120,7 +122,7 @@
             img(src="@/assets/template/tema-4-16.png", alt="Texto que describa la imagen")
       div(titulo="Pruebas de seguridad de las aplicaciones").row
         .col-12.col-lg-8
-          p es indispensable realizar pruebas de seguridad de las aplicaciones durante el proceso de desarrollo de software para garantizar que no existan vulnerabilidades en cada versión antes de ser liberada al público.
+          p Es indispensable realizar pruebas de seguridad de las aplicaciones durante el proceso de desarrollo de <i>software</i> para garantizar que no existan vulnerabilidades en cada versión antes de ser liberada al público.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-4-17.png", alt="Texto que describa la imagen")
@@ -128,12 +130,12 @@
       #t_4_3.h4 4.3  API’s, Firebase
     figure.mt-5
       img(src="@/assets/template/tema-4-18.png", alt="Texto que describa la imagen")
-    p.mt-5 Las organizaciones están cambiando el modelo de su arquitectura de software a arquitecturas basadas en  componentes de micro servicios. Un micro servicio es un servicio pequeño encargado de una única función básica, y para realizar un proceso más complejo se emplearían varios micro servicios coordinados entre sí. La ventaja de esto es que ese mismo servicio está publicado en internet no para usuarios finales sino para que sean utilizado por aplicaciones, de esta forma una aplicación móvil puede usar ese servicio de la misma forma que una aplicación web o un chatbot.
+    p.mt-5 Las organizaciones están cambiando el modelo de su arquitectura de <i>software</i> a arquitecturas basadas en  componentes de micro servicios. Un micro servicio es un servicio pequeño encargado de una única función básica, y para realizar un proceso más complejo se emplearían varios micro servicios coordinados entre sí. La ventaja de esto es que ese mismo servicio está publicado en internet no para usuarios finales sino para que sean utilizado por aplicaciones, de esta forma una aplicación móvil puede usar ese servicio de la misma forma que una aplicación web o un <i>chatbot</i>.
     .h4.mt-5 Definición de API’S
     .row.mt-5
       .col-12.col-lg-9
-        p Se debe imaginar que una empresa necesita que sus clientes registren sus solicitudes por página web, aplicación móvil y chatbot, la principal ventaja de esto es que si se desea cambiar una regla de negocio (por ejemplo, aplicar determinados descuentos), no debe modificar los tres sistemas sino solamente los micro servicios que están involucrados en dicho proceso.
-        p.mt-3 Los micro servicios se publican a través de lo que se denomina una API del acrónimo en inglés Applicactions Programming Interface, o Interfaz de programación de aplicaciones. Son un conjunto de subrutinas, funciones y/o procedimientos que se ofrecen para ser utilizados por otro software como una capa de abstracción (es decir de ocultación de los detalles de codificación). Por lo tanto, una API es en esencia la capacidad de comunicación entre componentes de software.
+        p Se debe imaginar que una empresa necesita que sus clientes registren sus solicitudes por página web, aplicación móvil y <i>chatbot</i>, la principal ventaja de esto es que si se desea cambiar una regla de negocio (por ejemplo, aplicar determinados descuentos), no debe modificar los tres sistemas sino solamente los micro servicios que están involucrados en dicho proceso.
+        p.mt-3 Los micro servicios se publican a través de lo que se denomina una API del acrónimo en inglés <i>Applicactions Programming Interface</i>, o Interfaz de programación de aplicaciones. Son un conjunto de subrutinas, funciones y/o procedimientos que se ofrecen para ser utilizados por otro <i>software</i> como una capa de abstracción (es decir de ocultación de los detalles de codificación). Por lo tanto, una API es en esencia la capacidad de comunicación entre componentes de <i>software</i>.
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
           img(src="@/assets/template/tema-4-19.png", alt="Texto que describa la imagen")
@@ -143,7 +145,7 @@
         p Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles. Fue creada en 2011 pasando a ser parte de Google en 2014, Su función esencial es hacer más sencilla la creación de aplicaciones web y móviles en su desarrollo como herramientas que facilitan el trabajo para que sea más rápido, pero sin renunciar a la calidad y la seguridad.
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30.mx-5.mt-5
           .row            
-            p Para acceder a los servicios de firebase se requiere consumir el API suministrado por Google.
+            p.my-0 Para acceder a los servicios de firebase se requiere consumir el API suministrado por Google.
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
           img(src="@/assets/template/tema-4-20.png", alt="Texto que describa la imagen")

@@ -6,12 +6,12 @@
     .titulo-principal
       .titulo-principal__numero
         span 3
-      h1 Principios Básicos de Usabilidad
+      h1 Principios básicos de usabilidad
     figure.mt-5
       img(src="@/assets/template/tema-3-1.svg", alt="Texto que describa la imagen")
     .row.mt-5
       .col-12.col-lg-9
-        p La Usabilidad es un término que recoge una valoración de la calidad de la experiencia de usuario cuando interactúa con un producto o sistema. Para medirla se hace a través del estudio de la relación que se produce entre las herramientas diseñadas y los usuarios que las usan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo a través de ellas. En conclusión, se puede definir la usabilidad como la disciplina que estudia el diseño de aplicaciones móviles o sitios web para que los usuarios puedan interactuar de forma fácil, fluida e intuitivamente. 
+        p La usabilidad es un término que recoge una valoración de la calidad de la experiencia de usuario cuando interactúa con un producto o sistema. Para medirla se hace a través del estudio de la relación que se produce entre las herramientas diseñadas y los usuarios que las usan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo a través de ellas. En conclusión, se puede definir la usabilidad como la disciplina que estudia el diseño de aplicaciones móviles o sitios web para que los usuarios puedan interactuar de forma fácil, fluida e intuitivamente. 
         p.mt-3 Existen varios aspectos relacionados con el uso de aplicaciones y la manera en que las personas se relacionan con esas aplicaciones que se les ofrecen. Básicamente estos estudios han proporcionado un conjunto de comprobación de estos aspectos, como mecanismo de variación. Dicha validación debe ser hecha a través de diferentes aspectos, entre los que se cuentan los siguientes: 
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
@@ -21,7 +21,7 @@
         .row.py-2
           .col-4.align-self-center
             figure.borde-gris-der
-              img(src="@/assets/template/tema-3-3.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+              img.imagen_flotante_animada(data-aos="fade-up" src="@/assets/template/tema-3-3.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Facilidad de aprendizaje
             p.mt-3 Se puede emplear una unidad de tiempo para determinar lo que demoran los usuarios en usarla de manera correcta y realizar las operaciones básicas y comunes.
@@ -30,16 +30,16 @@
         .row.py-3
           .col-4.align-self-center
             figure.borde-gris-der
-              img(src="@/assets/template/tema-3-13.svg", alt="Texto que describa la imagen").w-25.margin-0-auto
+              img.imagen_flotante_animada(src="@/assets/template/tema-3-13.svg", alt="Texto que describa la imagen").w-25.margin-0-auto
           .col-8.pt-4.px-4
-            .h4 Facilidad y Eficiencia de uso
+            .h4 Facilidad y eficiencia de uso
             p.mt-3 Se peude usar una unidad de tiempo para establecer cuando tiempo se demora un usuario en realizar una operación completa de su que hacer con la herramienta de trabajo.
     .row.mt-5
       .col-8.offset-2.rounded-20.borde-primario-4
         .row.py-3
           .col-4.align-self-center
             figure.borde-gris-der
-              img(src="@/assets/template/tema-3-4.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+              img.imagen_flotante_animada(src="@/assets/template/tema-3-4.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Facilidad de recordar el funcionamiento
             p.mt-3 Capacidad de recordar las características y forma de uso de un sistema se debe usar para volver a emplearlo en el futuro.
@@ -48,7 +48,7 @@
         .row.py-3
           .col-4.align-self-center
             figure.borde-gris-der
-              img(src="@/assets/template/tema-3-5.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+              img.imagen_flotante_animada(src="@/assets/template/tema-3-5.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Frecuencia y gravedad de errores
             p.mt-3  Los mensajes de error a los usuarios para apoyarlos cuando deban enfrentar los errores cuando se comenten errores determinados en el sistema. Ejemplo de un error predeterminado: suponga que en un sistema de facturación se intenta hacer una factura sin relacionar al menos un producto o servicio a 
@@ -57,7 +57,7 @@
         .row.py-3
           .col-4.align-self-center
             figure.borde-gris-der
-              img(src="@/assets/template/tema-3-6.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+              img.imagen_flotante_animada(src="@/assets/template/tema-3-6.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Satisfacción subjetiva
             p.mt-3 Indica lo satisfechos que quedan los usuarios después haber usado el sistema debido al diseño presentado y es subjetiva porque depende de la percepción de cada usuario.
@@ -123,4 +123,19 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+@keyframes float
+  0%
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2))
+    transform: translatey(0px)
+  50%
+    filter: drop-shadow(0 25px 15px rgba(0,0,0,0.1))
+    transform: translatey(-20px)
+  100%
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2))
+    transform: translatey(0px)
+.imagen_flotante_animada
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2))
+  transform: translatey(0px)
+  animation: float 6s ease-in-out infinite
+</style>

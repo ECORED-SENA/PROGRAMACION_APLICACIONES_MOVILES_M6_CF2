@@ -5,13 +5,13 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 	Componentes electrónicos
+      h1 	Análisis de requerimiento 
     figure
       img(src="@/assets/template/tema-1-1.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-12.col-lg-9
         p El desarrollo de aplicaciones móviles no implica únicamente la codificación o programación, también requiere de analizar y entender las necesidades del cliente, crear modelos que hagan más fácil el proceso de desarrollo, la planeación del proyecto, y otras actividades involucradas. 
-        p.mt-3 La aplicación de las técnicas de elicitar (transferir información) requisitos, conducen a identificar las fuentes de los mismos con los interesados en el sistema (stakeholders). Estas actividades sin embargo pueden derivar en que el cliente o los usuarios excedan lo que realmente necesitan, o tal vez sin considerar las limitantes a nivel de hardware, software, presupuesto, tiempo o requisitos, por lo tanto es necesario conocer con todo nivel de detalle lo que se requiere alcanzar y las necesidades reales a cubrir. De esta forma se deben detallar y modificar los requerimientos básicos elicitados. lo cual se logra en un consenso de las partes involucradas como lo indica la siguiente figura 1 y da como resultados la elaboración de un documento en el cual se debe responder: 
+        p.mt-3 La aplicación de las técnicas de elicitar (transferir información) requisitos, conducen a identificar las fuentes de los mismos con los interesados en el sistema (<i>stakeholders</i>). Estas actividades sin embargo pueden derivar en que el cliente o los usuarios excedan lo que realmente necesitan, o tal vez sin considerar las limitantes a nivel de <i>hardware</i>, <i>Software</i>, presupuesto, tiempo o requisitos, por lo tanto es necesario conocer con todo nivel de detalle lo que se requiere alcanzar y las necesidades reales a cubrir. De esta forma se deben detallar y modificar los requerimientos básicos elicitados. lo cual se logra en un consenso de las partes involucradas como lo indica la siguiente figura 1 y da como resultados la elaboración de un documento en el cual se debe responder: 
         p ¿Qué es lo prioritario?, ¿qué es lo esencial? y ¿para cuándo se requiere? Esto se especifica de algún modo y luego se revisa o válida para garantizar la coincidencia en la comprensión que tiene el analista del problema y los demás participantes.
       .col-3.offset-4.offset-lg-0
         figure
@@ -24,7 +24,7 @@
       .col-8.col-lg-6.offset-2.offset-lg-3
         figure
           img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
-    p.mt-5 ¿Qué es lo prioritario?, ¿qué es lo esencial? y ¿para cuándo se requiere? Esto se especifica de algún modo y luego se revisa o válida para garantizar la coincidencia en la comprensión que tiene el analista del problema y los demás participantes.
+    p.mt-5 Cuando los sistemas no son tan complejos en su enlace, como lo es en la mayoría de los casos para aplicaciones móviles, se recomienda el empleo de historia de usuario, sin embargo, se propone revisar algunos aspectos que no son fáciles de identificar en un proceso de licitación de requisitos y que se mencionan a continuación ya que esta enmarcados en el contexto de aplicaciones móviles, ver tabla 1.
     .row.mt-5
       .col-10.offset-1
         .titulo-sexto.color-acento-contenido.mb-0
@@ -37,12 +37,12 @@
           th.bg-acento-botones Aspecto
           td.bg-acento-botones.font-weight-bold Pregunta modeladora
         tr
-          th Aspecto físico o de Hardware
+          th Aspecto físico o de <i>hardware</i>
           td 
-            p ¿En qué tipo de dispositivos la app debe funcionar? Móvil, Tablet, Smart watch, etc.
-            p ¿Qué tipo de app es una mejor solución?: nativa, web o híbrida
-            p En las apps nativas, ¿qué sistema operativo se empleará? Android, IOS, Windows Phone, etc. 
-            p En las Web App, ¿qué navegadores y versiones deberán soportar las funcionalidades?
+            p ¿En qué tipo de dispositivos la <i>app</i> debe funcionar? Móvil, <i>Tablet</i>, <i>Smart watch</i>, etc.
+            p ¿Qué tipo de <i>app</i> es una mejor solución?: nativa, web o híbrida
+            p En las <i>app</i>s nativas, ¿qué sistema operativo se empleará? Android, IOS, Windows Phone, etc. 
+            p En las Web <i>app</i>, ¿qué navegadores y versiones deberán soportar las funcionalidades?
             p ¿A cuántos usuarios simultáneamente debe atender el sistema?
             p ¿Hay restricciones de nivel de acceso a Internet (ancho de banda o consumo) o aspectos de seguridad?
         tr
@@ -55,12 +55,12 @@
         tr
           th Aspectos humanos
           td 
-            p ¿Qué tipo de población usará la app?
+            p ¿Qué tipo de población usará la <i>app</i>?
             p ¿Existen varios tipos de usuario?
             p ¿Qué tipo de entrenamiento necesitará cada tipo de usuario?
     figure.mt-5
       img(src="@/assets/template/tema-1-4.png", alt="Texto que describa la imagen")
-    p.mt-5 Cuando un requisito o conjunto de ellos hace parte de todo un ecosistema tecnológico donde intervienen diferentes tipos de aplicaciones (web, de escritorio, móvil, interacción con otros sistemas de proveedores, clientes o asociados), como, por ejemplo, los sistemas bancarios, que tienen app móvil, aplicación web, aplicación de terminal escritorio, aplicaciones portales para asociados etc. En un escenario así, las historias de usuario no siempre dan una visión completa de la complejidad del problema.  
+    p.mt-5 Cuando un requisito o conjunto de ellos hace parte de todo un ecosistema tecnológico donde intervienen diferentes tipos de aplicaciones (web, de escritorio, móvil, interacción con otros sistemas de proveedores, clientes o asociados), como, por ejemplo, los sistemas bancarios, que tienen <i>app</i> móvil, aplicación web, aplicación de terminal escritorio, aplicaciones portales para asociados etc. En un escenario así, las historias de usuario no siempre dan una visión completa de la complejidad del problema.  
     .row.mt-4
       .col-11
         p Estos sistemas generalmente tienen lo que denominaban “Las Reglas del Negocio” o “Conjunto de Reglas de Negocio” las cuales describe las políticas, operaciones, normas, definiciones y restricciones presentes en una organización y que los sistemas información o aplicación deben considerar porque son las que permiten alcanzar los objetivos misionales del cliente. En ocasiones hasta se requiere un glosario de términos propios del negocio para poder especificarlos. 
@@ -70,13 +70,17 @@
     .row.mt-5
       .col-8.offset-2
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30
-          p Un ejemplo de regla de negocio: Un cliente al que se factura más de 10.000 al año es un cliente de tipo A, los clientes de tipo A se les aplica un descuento del 10% en pedidos superiores a 3.000.
+          p Un ejemplo de regla de negocio: un cliente al que se factura más de 10.000 al año es un cliente de tipo A, los clientes de tipo A se les aplica un descuento del 10% en pedidos superiores a 3.000.
+    .row.mt-5
+      .col-12      
+          p Pero las #[strong reglas] de negocio pueden ser tan complejas como lo sean las operaciones del cliente, en casos como tal se propone emplear artefactos como los casos de uso para definir al detalle la especificación del sistema.
+          p En un caso tal se proponen algunos artefactos a elaborar que guiarán el proceso: 
     .tabla-a.color-primario.mt-5 
       table
         thead
           tr
-            th Documento de especificaciones requisitos
-            th Plantilla de Casos de uso
+            th Documento de especificación de requisitos
+            th Plantilla de casos de uso
         tbody
           tr
             td.p-0.position-relative 
@@ -98,14 +102,17 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://docs.google.com/document/d/1jJtmIqcsEKfHeKp9dcZjQDYMjEx84t8x/edit 
+                  p #[strong Enlace web] https://docs.google.com/document/d/
+                  p 1jJtmIqcsEKfHeKp9dcZjQDYMjEx84t8x/edit 
             td
               p.mt-2.px-4 Alguno de los requerimientos especificados definidos el documento de especificación de requisitos puede necesitar un nivel de detalle técnico superior, por ejemplo, al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares de operación, donde pueden intervenir reglas de negocio.  A continuación se puede encontrar un ejemplo o guía, para que se pueda adaptar a las necesidades del proyecto. 
               a.anexo.mb-4.mb-lg-0(href="https://docs.google.com/document/d/1_MBbEhXje0XSfFJWiRCpWHRRoIPcsyRo/edit#" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://docs.google.com/document/d/1_MBbEhXje0XSfFJWiRCpWHRRoIPcsyRo/edit# 
+                  p #[strong Enlace web] https://docs.google.com/document/d/
+                  p 1_MBbEhXje0XSfFJWiRCpWHRRoIPcsyRo
+                  p /edit 
     .row.mt-5
       .col-8.offset-2
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30

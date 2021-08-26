@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Análisis de Requerimiento',
+        titulo: 'Análisis de requerimiento',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -31,7 +31,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Diseño gráfico: Herramientas de prototipado',
+        titulo: 'Diseño gráfico: herramientas de prototipado',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -43,7 +43,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Balsamig',
+            titulo: 'Balsamiq',
             hash: 't_2_2',
           },
           {
@@ -64,7 +64,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Principios Básicos de Usabilidad',
+        titulo: 'Principios básicos de usabilidad',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -72,7 +72,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Componentes de Software',
+        titulo: 'Componentes de <i>software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -104,12 +104,6 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -139,22 +133,22 @@ export default {
   referencias: [
     {
       referencia:
-        'Lázaro, G. (2015). Efecto Ripple de Material Design [HTML+CSS+JS].',
+        'Lázaro, G. (2015). Efecto Ripple de Material Design [HTML+CSS+JS]. ',
       link:
-        'https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js',
+        ' https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js',
     },
     {
       referencia: 'Material.io. (2021). Material Design.',
       link:
-        'https://material.io/design/color/the-color-system.html#color-usage-and-palettes',
+        ' https://material.io/design/color/the-color-system.html#color-usage-and-palettes',
     },
     {
       referencia:
         'Aula formativa. (2019, julio 29). ¿Qué es el Material Design?. [Web log post].  blog.aulaformativa.com. ',
-      link: 'https://blog.aulaformativa.com/que-es-el-material-design',
+      link: ' https://blog.aulaformativa.com/que-es-el-material-design',
     },
     {
-      referencia: 'Beust, C. (2019).  TestNG.',
+      referencia: 'Beust, C. (2019).  TestNG. ',
       link: 'https://testng.org/doc',
     },
   ],
@@ -166,6 +160,7 @@ export default {
     },
     {
       termino: 'wireframing',
+      termHTML: '<i>Wireframing</i>',
       significado:
         'Es un esquema de página o plano de pantalla, como guía visual que representa el esqueleto o estructura visual de una interfaz.',
     },
@@ -173,31 +168,31 @@ export default {
   complementario: [
     {
       texto:
-        'FalconMasters. (2018). Curso de Adobe XD | 1. Introducción y que Aprenderemos en el Curso [video] Youtube. https://www.youtube.com/watch?v=5HfqCSm9k3Y',
+        'FalconMasters. (2018). Curso de Adobe XD | 1. Introducción y que Aprenderemos en el Curso [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/5HfqCSm9k3Y',
     },
     {
       texto:
-        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los wireframes y la interfaz. [video] Youtube. https://www.youtube.com/watch?v=4WqfxF1QjTM',
+        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los wireframes y la interfaz. [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/4WqfxF1QjTM',
     },
     {
       texto:
-        'Aprende, G. (2020).  COMO USAR CANVA: Canva tutorial - Aprende a diseñar FÁCIL y de manera PROFESIONAL. [video] Youtube. https://www.youtube.com/watch?v=kdE6ZmT_5MI',
+        'Aprende, G. (2020).  COMO USAR CANVA: Canva tutorial - Aprende a diseñar FÁCIL y de manera PROFESIONAL. [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/kdE6ZmT_5MI',
     },
     {
       texto:
-        'Conde, J. (2016). 01.- Material Design con Android Studio. ¿Qué es Material Design? [video] Youtube. https://www.youtube.com/watch?v=wt0Jzc9UHNw',
+        'Conde, J. (2016). 01.- Material Design con Android Studio. ¿Qué es Material Design? [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/wt0Jzc9UHNw',
     },
     {
       texto:
-        'Novato, P. (2019). Firebase 01.- Que es Firebase.  [video] Youtube. https://www.youtube.com/watch?v=0Bhrwc8VfGw',
+        'Novato, P. (2019). Firebase 01.- Que es Firebase.  [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/0Bhrwc8VfGw',
     },
@@ -205,36 +200,78 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Peter Emerson Pinchao',
-        cargo: 'Experto Temático',
-        centro: 'Centro de Teleinformática y Producción Industrial',
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Lider de equipo',
+        centro: 'Direccion General',
       },
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Peter Emerson Pinchao',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial  - Regional Cauca',
+      },
+      {
+        nombre: 'Adriana López',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro para la Industria y la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Regional Distrito Capital- Centro de Diseño y metrología ',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
         cargo: 'Diseñador y evaluador instruccional',
         centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+          'Centro para la industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Adriana López',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
