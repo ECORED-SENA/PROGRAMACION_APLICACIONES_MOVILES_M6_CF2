@@ -114,7 +114,9 @@
     figure.mt-5
       img(src="@/assets/template/tema-2-23.png", alt="Texto que describa la imagen")     
     p.mt-5 Canva es un <i>software</i> y sitio web de herramientas de diseño gráfico simplificado, fundado en 2012. Utiliza un formato de arrastrar y soltar y proporciona acceso a más de 60 millones de fotografías y 5 millones de vectores, gráficos y fuentes.
-    p.mt-4 Para usar este servicio se debe registrar en el portal #[strong https://www.canva.com/es_us/] y una vez iniciada la sesión, el botón crear diseño se puede empezar crear una presentación para dispositivos móviles, ver figura 6.
+    p.mt-4 Para usar este servicio se debe registrar en el portal 
+      a(href="https://www.canva.com/es_us/" target="_blank") #[strong https://www.canva.com/es_us/]  
+      |  y una vez iniciada la sesión, el botón crear diseño se puede empezar crear una presentación para dispositivos móviles, ver figura 6.
     p.mt-5 
     .row.mt-5
       .col-10.offset-1
