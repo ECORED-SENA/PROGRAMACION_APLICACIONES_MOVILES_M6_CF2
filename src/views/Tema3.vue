@@ -83,7 +83,7 @@
                 img(src="@/assets/template/tema-3-9.svg", alt="Texto que describa la imagen")
             .col-9
               p.text-small Los usuarios no sienten una experiencia positiva si en algún momento se sienten perdidos mientras interactúan con el sistema. Se debe garantizar que el usuario sepa dónde se encuentra y cómo acceder a otro enlace o funcionalidad.
-          .row(numero="4" titulo="Facilitar la interactuación")
+          .row(numero="4" titulo="Facilitar la interacción")
             .col-1.mx-3
               figure
                 img(src="@/assets/template/tema-3-10.svg", alt="Texto que describa la imagen")
@@ -101,9 +101,6 @@
                 img(src="@/assets/template/tema-3-12.svg", alt="Texto que describa la imagen")
             .col-9
               p.text-small Otro elemento básico es la adaptabilidad a diferentes dispositivos. 
-
-
-
 </template>
 
 <script>
