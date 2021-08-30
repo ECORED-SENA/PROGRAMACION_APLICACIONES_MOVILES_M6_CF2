@@ -51,7 +51,7 @@
               img.imagen_flotante_animada(src="@/assets/template/tema-3-5.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Frecuencia y gravedad de errores
-            p.mt-3  Los mensajes de error a los usuarios para apoyarlos cuando deban enfrentar los errores cuando se comenten errores determinados en el sistema. Ejemplo de un error predeterminado: suponga que en un sistema de facturación se intenta hacer una factura sin relacionar al menos un producto o servicio a 
+            p.mt-3  Los mensajes de error a los usuarios para apoyarlos cuando deban enfrentar los errores cuando se comenten errores determinados en el sistema. Ejemplo de un error predeterminado: suponga que en un sistema de facturación se intenta hacer una factura sin relacionar al menos un producto o servicio a facturar.
     .row.mt-5
       .col-8.offset-2.rounded-20.borde-primario-4
         .row.py-3

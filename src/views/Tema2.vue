@@ -125,7 +125,7 @@
         figure.mt-4
           img(src="@/assets/template/tema-2-24.png", alt="Texto que describa la imagen")
           figcaption.mt-3 Referencia Nota. Crear presentación móvil CANVA, Canva (2021).
-    p.mt-5 Canva permite al igual que Adobe XD diseñar interdices para dispositivos móviles, y también de una forma muy similar, ver figura 7. Propone iniciar el diseño con plantillas prediseñadas lo que puede representar una facilidad para empezar un proyecto.
+    p.mt-5 Canva permite al igual que Adobe XD diseñar interfaces para dispositivos móviles, y también de una forma muy similar, ver figura 7. Propone iniciar el diseño con plantillas prediseñadas lo que puede representar una facilidad para empezar un proyecto.
     .row.mt-5
       .col-10.offset-1
         .h4.mb-0 Figura 7

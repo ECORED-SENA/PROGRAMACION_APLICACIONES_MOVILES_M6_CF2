@@ -24,7 +24,7 @@
       .col-8.col-lg-6.offset-2.offset-lg-3
         figure
           img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
-    p.mt-5 Cuando los sistemas no son tan complejos en su enlace, como lo es en la mayoría de los casos para aplicaciones móviles, se recomienda el empleo de historia de usuario, sin embargo, se propone revisar algunos aspectos que no son fáciles de identificar en un proceso de licitación de requisitos y que se mencionan a continuación ya que esta enmarcados en el contexto de aplicaciones móviles, ver tabla 1.
+    p.mt-5 Cuando los sistemas no son tan complejos en su enlace, como lo es en la mayoría de los casos para aplicaciones móviles, se recomienda el empleo de historia de usuario, sin embargo, se propone revisar algunos aspectos que no son fáciles de identificar en un proceso de licitación de requisitos y que se mencionan a continuación ya que está enmarcados en el contexto de aplicaciones móviles, ver tabla 1.
     .row.mt-5
       .col-10.offset-1
         .titulo-sexto.color-acento-contenido.mb-0
@@ -63,7 +63,7 @@
     p.mt-5 Cuando un requisito o conjunto de ellos hace parte de todo un ecosistema tecnológico donde intervienen diferentes tipos de aplicaciones (web, de escritorio, móvil, interacción con otros sistemas de proveedores, clientes o asociados), como, por ejemplo, los sistemas bancarios, que tienen <i>app</i> móvil, aplicación web, aplicación de terminal escritorio, aplicaciones portales para asociados etc. En un escenario así, las historias de usuario no siempre dan una visión completa de la complejidad del problema.  
     .row.mt-4
       .col-11
-        p Estos sistemas generalmente tienen lo que denominaban “Las Reglas del Negocio” o “Conjunto de Reglas de Negocio” las cuales describe las políticas, operaciones, normas, definiciones y restricciones presentes en una organización y que los sistemas información o aplicación deben considerar porque son las que permiten alcanzar los objetivos misionales del cliente. En ocasiones hasta se requiere un glosario de términos propios del negocio para poder especificarlos. 
+        p Estos sistemas generalmente tienen lo que denominaban “Las Reglas del Negocio” o “Conjunto de Reglas de Negocio” las cuales describe las políticas, operaciones, normas, definiciones y restricciones presentes en una organización y que los sistemas de información o aplicación deben considerar porque son las que permiten alcanzar los objetivos misionales del cliente. En ocasiones hasta se requiere un glosario de términos propios del negocio para poder especificarlos. 
       .col-1.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-1-5.svg", alt="Texto que describa la imagen")
@@ -98,21 +98,14 @@
             td
               p.px-4 Permite identificar el objetivo general de cada requerimiento sin abordar demasiados detalles técnicos ni de reglas de negocio que se presenten en la operación, es una base para estimar costos y tiempos.
               p.mt-3.px-4 Se puede encontrar un formato de ejemplo, que es a su vez, una guía de cómo crear o adaptar.
-              a.anexo.mb-4.mb-lg-0(href="https://docs.google.com/document/d/1jJtmIqcsEKfHeKp9dcZjQDYMjEx84t8x/edit" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p #[strong Enlace web] https://docs.google.com/document/d/
-                  p 1jJtmIqcsEKfHeKp9dcZjQDYMjEx84t8x/edit 
+              a.px-4.boton.color-primario.mx-4(:href="obtenerLink('/downloads/FS-DOC-LevantamientoRequerimientos.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
             td
-              p.mt-2.px-4 Alguno de los requerimientos especificados definidos el documento de especificación de requisitos puede necesitar un nivel de detalle técnico superior, por ejemplo, al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares de operación, donde pueden intervenir reglas de negocio.  A continuación se puede encontrar un ejemplo o guía, para que se pueda adaptar a las necesidades del proyecto. 
-              a.anexo.mb-4.mb-lg-0(href="https://docs.google.com/document/d/1_MBbEhXje0XSfFJWiRCpWHRRoIPcsyRo/edit#" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p #[strong Enlace web] https://docs.google.com/document/d/
-                  p 1_MBbEhXje0XSfFJWiRCpWHRRoIPcsyRo
-                  p /edit 
+              p.mt-2.px-4 Alguno de los requerimientos especificados definidos en el documento de especificación de requisitos puede necesitar un nivel de detalle técnico superior, por ejemplo, al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares de operación, donde pueden intervenir reglas de negocio.  A continuación se puede encontrar un ejemplo o guía, para que se pueda adaptar a las necesidades del proyecto. 
+              a.px-4.boton.color-primario.mx-4(:href="obtenerLink('/downloads/FS-DOC-PLANTILLA-CASOS-USO.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
     .row.mt-5
       .col-8.offset-2
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30

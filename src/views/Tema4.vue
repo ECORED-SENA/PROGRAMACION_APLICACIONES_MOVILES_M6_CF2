@@ -9,7 +9,7 @@
       h1 Componentes de <i>software</i>
     figure.mt-4  
       img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
-    p.mt-5 Los sistemas de información son el conjunto de varios elementos que operando en conjunto bajo unas premisas definidas logran el objetivo de mantener en operación dichos sistemas. A continuación, se relacionan algunos de estos elementos necesarios para garantizar la continuidad del funcionamiento del sistema.
+    p.mt-5 Los sistemas de información son la agrupación de varios elementos que operando en conjunto bajo unas premisas definidas logran el objetivo de mantener en operación dichos sistemas. A continuación, se relacionan algunos de estos elementos necesarios para garantizar la continuidad del funcionamiento del sistema.
     .titulo-segundo.mt-5
       #t_4_1.h4 4.1  Licenciamiento
     .row.mt-5 
@@ -30,7 +30,7 @@
             .col-lg-9
               .bloque-texto-a__texto.p-4
                 p #[strong Tipos de licencia de ] <b><i>software</i></b>
-                p.mt-3 En Colombia según la norma que regula este tema se encuentra en la Ley 603 de 2000, llamada  ley de licencias de <i>software</i> (o también Ley para cumplimiento de las licencias de <i>software</i>), las licencias de <i>software</i> se clasifican según el uso final y las libertades que el autor ofrece de su producto al usuario final. Por lo tanto, es importante conocer el tipo de licenciamiento de <i>software</i>:
+                p.mt-3 En Colombia según la norma que regula este tema se encuentra en la Ley 603 de 2000, llamada  ley de licencias de <i>software</i> (o también Ley para cumplimiento de las licencias de <i>software</i> ), las licencias de <i>software</i> se clasifican según el uso final y las libertades que el autor ofrece de su producto al usuario final. Por lo tanto, es importante conocer el tipo de licenciamiento de <i>software</i>:
     .row.mt-5
       .col-10.offset-1
         LineaTiempoD.color-acento-botones
@@ -104,13 +104,13 @@
     AcordionA.mt-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Seguridad de las aplicaciones en la nube")
         .col-12.col-lg-8
-          p Las aplicaciones móviles y las aplicaciones web requieren servicios en la nube ello plantea desafíos adicionales propios del entorno entornos de la nave ya que los recursos muchas veces son compartidos, existen dispositivos a nivel infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
+          p Las aplicaciones móviles y las aplicaciones web requieren servicios en la nube ello plantea desafíos adicionales propios del entorno de la nube ya que los recursos muchas veces son compartidos, existen dispositivos a nivel infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-4-14.png", alt="Texto que describa la imagen")
       div(titulo="Seguridad de las aplicaciones móviles").row
         .col-12.col-lg-8
-          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la establece una Red Privada virtual (VPN, Virtual Prívate Network), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado creando con elle una red privada sobre una red pública.
+          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la establece una Red Privada virtual (VPN, Virtual Prívate Network), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado creando con ello una red privada sobre una red pública.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-4-15.png", alt="Texto que describa la imagen")
@@ -130,19 +130,19 @@
       #t_4_3.h4 4.3  API’s, Firebase
     figure.mt-5
       img(src="@/assets/template/tema-4-18.png", alt="Texto que describa la imagen")
-    p.mt-5 Las organizaciones están cambiando el modelo de su arquitectura de <i>software</i> a arquitecturas basadas en  componentes de micro servicios. Un micro servicio es un servicio pequeño encargado de una única función básica, y para realizar un proceso más complejo se emplearían varios micro servicios coordinados entre sí. La ventaja de esto es que ese mismo servicio está publicado en internet no para usuarios finales sino para que sean utilizado por aplicaciones, de esta forma una aplicación móvil puede usar ese servicio de la misma forma que una aplicación web o un <i>chatbot</i>.
+    p.mt-5 Las organizaciones están cambiando el modelo de su arquitectura de <i>software</i> a arquitecturas basadas en  componentes de microservicios. Un microservicio es un servicio pequeño encargado de una única función básica, y para realizar un proceso más complejo se emplearían varios microservicios coordinados entre sí. La ventaja de esto es que ese mismo servicio está publicado en internet no para usuarios finales sino para que sean utilizado por aplicaciones, de esta forma una aplicación móvil puede usar ese servicio de la misma forma que una aplicación web o un <i>chatbot</i>.
     .h4.mt-5 Definición de API’S
     .row.mt-5
       .col-12.col-lg-9
-        p Se debe imaginar que una empresa necesita que sus clientes registren sus solicitudes por página web, aplicación móvil y <i>chatbot</i>, la principal ventaja de esto es que si se desea cambiar una regla de negocio (por ejemplo, aplicar determinados descuentos), no debe modificar los tres sistemas sino solamente los micro servicios que están involucrados en dicho proceso.
-        p.mt-3 Los micro servicios se publican a través de lo que se denomina una API del acrónimo en inglés <i>Applicactions Programming Interface</i>, o Interfaz de programación de aplicaciones. Son un conjunto de subrutinas, funciones y/o procedimientos que se ofrecen para ser utilizados por otro <i>software</i> como una capa de abstracción (es decir de ocultación de los detalles de codificación). Por lo tanto, una API es en esencia la capacidad de comunicación entre componentes de <i>software</i>.
+        p Se debe imaginar que una empresa necesita que sus clientes registren sus solicitudes por página web, aplicación móvil y <i>chatbot</i>, la principal ventaja de esto es que si se desea cambiar una regla de negocio (por ejemplo, aplicar determinados descuentos), no debe modificar los tres sistemas sino solamente los microservicios que están involucrados en dicho proceso.
+        p.mt-3 Los microservicios se publican a través de lo que se denomina una API del acrónimo en inglés <i>Applicactions Programming Interface</i>, o Interfaz de programación de aplicaciones. Son un conjunto de subrutinas, funciones y/o procedimientos que se ofrecen para ser utilizados por otro <i>software</i> como una capa de abstracción (es decir de ocultación de los detalles de codificación). Por lo tanto, una API es en esencia la capacidad de comunicación entre componentes de <i>software</i>.
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
           img(src="@/assets/template/tema-4-19.png", alt="Texto que describa la imagen")
     .h4.mt-5 Firebase
     .row.mt-5
       .col-12.col-lg-9
-        p Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles. Fue creada en 2011 pasando a ser parte de Google en 2014, Su función esencial es hacer más sencilla la creación de aplicaciones web y móviles en su desarrollo como herramientas que facilitan el trabajo para que sea más rápido, pero sin renunciar a la calidad y la seguridad.
+        p Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles. Fue creada en 2011 pasando a ser parte de Google en 2014, su función esencial es hacer más sencilla la creación de aplicaciones web y móviles en su desarrollo como herramientas que facilitan el trabajo para que sea más rápido, pero sin renunciar a la calidad y la seguridad.
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30.mx-5.mt-5
           .row            
             p.my-0 Para acceder a los servicios de firebase se requiere consumir el API suministrado por Google.
@@ -177,7 +177,7 @@
       #t_4_4.h4 4.4  Herramientas
     figure.mt-5
       img(src="@/assets/template/tema-4-31.png", alt="Texto que describa la imagen")
-    p.mt-5 Cuando se está desarrollando un proyecto empleando micro servicios, las pruebas de API necesarias son un tipo de prueba que es imprescindible realizar para desarrollar o consumir una API para lograr o probar la ejecución, funcionalidad, confiabilidad y seguridad de la aplicación.
+    p.mt-5 Cuando se está desarrollando un proyecto empleando microservicios, las pruebas de API necesarias son un tipo de prueba que es imprescindible realizar para desarrollar o consumir una API para lograr o probar la ejecución, funcionalidad, confiabilidad y seguridad de la aplicación.
     p.mt-3 A continuación, se presentan un conjunto de herramientas de libre distribución que permiten realizar el proceso de prueba y diseño de APIs publicadas por los diferentes protocolos WEB.
     .row.mt-5
       .col-8.offset-2
@@ -283,7 +283,7 @@
               figure
                 img(src="@/assets/template/tema-4-36.png", alt="Texto que describa la imagen")
             .col-12.col-lg-8
-              p Tal vez el más popular por esta enfocado en el proceso de desarrollo, lo que lo hace muy facil de usar.
+              p Tal vez el más popular porque está enfocado en el proceso de desarrollo, lo que lo hace muy facil de usar.
               ul.lista-ul
                 li 
                   i.fas.fa-angle-right
