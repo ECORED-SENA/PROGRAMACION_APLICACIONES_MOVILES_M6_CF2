@@ -61,7 +61,7 @@
           .col-8.pt-4.px-4
             .h4 Satisfacción subjetiva
             p.mt-3 Indica lo satisfechos que quedan los usuarios después haber usado el sistema debido al diseño presentado y es subjetiva porque depende de la percepción de cada usuario.
-    p.mt-5 Los aspectos anteriores aplican en principio a cualquier aplicación, web o móvil, sin embargo, el compendio de buenas prácticas que la industria muy reconocida en el entorno móvil, que se listan a continuación:
+    p.mt-5 Los anteriores aspectos aplican en principio a cualquier tipo de aplicación, web o móvil, sin embargo, el compendio de buenas prácticas para aplicaciones móviles se destaca por aspectos como los relacionados a continuación: 
     .row.mt-5
       .col-10.offset-1
         LineaTiempoD.color-acento-botones
